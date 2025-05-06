@@ -609,7 +609,7 @@ dependencies:
   - zstandard=0.23.0=py311h5cd10c7_0
   - zstd=1.5.6=ha6fb4c9_0
   - pip:
-    - galsim==2.6
+    - galsim==2.7.1
     - healpy==1.17.3
     - imsim==2.0
     - jax==0.4.13
