@@ -1,0 +1,13 @@
+name: simdevel3
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - galsim>=2.6
+  - astropy
+  - dust_extinction
+  - dustmaps
+  - pip
+  - pip:
+    - lsst-sphgeom
+    - git+https://github.com/arunkannawadi/skyCatalogs.git@geom_dependency  # temporary
